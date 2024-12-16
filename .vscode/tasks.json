@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cargo build",
+            "command": "cargo",
+            "args": [
+                "build"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "cargo build (release)",
+            "command": "cargo",
+            "args": [
+                "build",
+                "--release"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "cargo test",
+            "command": "cargo",
+            "args": [
+                "test"
+            ],
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "cargo run",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}

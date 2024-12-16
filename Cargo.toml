@@ -1,0 +1,15 @@
+[package]
+name = "icp_wallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+chrono = "0.4"
+
+[lib]
+path = "src/lib.rs"  # This makes src/lib.rs the entry point for the crate
+
+[[bin]]
+name = "icp_wallet"
+path = "src/main.rs"  # Keep this if you still want to build a binary crate
